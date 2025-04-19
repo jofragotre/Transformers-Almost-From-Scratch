@@ -1,7 +1,6 @@
-```markdown
 # Transformers Almost From Scratch
 
-This project implements the foundational components of the "Attention Is All You Need" paper to build a functional Transformer model from scratch. The code is written in PyTorch and focuses on understanding and implementing the core concepts of self-attention, multi-head attention, and Transformer blocks. It is missing core training setup features like model saving, loading, metric tracking, plotting, etc. This is because it's main goal is to understand better the core concepts behind the transformer architecture. Most of the code was based on andrej karpathy's build a gpt video. 
+This project implements the foundational components of the "Attention Is All You Need" paper to build a functional Transformer model from scratch. The code is written in PyTorch and focuses on understanding and implementing the core concepts of self-attention, multi-head attention, and Transformer blocks. It is missing core training setup features like model saving, loading, metric tracking, plotting, configs, etc. This is because it's main goal is to understand better the core concepts behind the transformer architecture. Most of the code was based on andrej karpathy's build a gpt video. 
 
 With more training time and deeper architecture better outputs should be achieavable. 
 
@@ -53,10 +52,7 @@ With more training time and deeper architecture better outputs should be achieav
 
 - Python 3.8+
 - PyTorch 1.10+
-- Additional dependencies (install via `pip`):
-  ```bash
-  pip install tqdm
-  ```
+- tqdm
 
 ## Training Setup
 
