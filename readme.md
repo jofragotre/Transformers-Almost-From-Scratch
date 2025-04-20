@@ -2,6 +2,8 @@
 
 This project implements the foundational components of the "Attention Is All You Need" paper to build a functional Transformer model from scratch. The code is written in PyTorch and focuses on understanding and implementing the core concepts of self-attention, multi-head attention, and Transformer blocks. It is missing core training setup features like model saving, loading, metric tracking, plotting, configs, etc. This is because it's main goal is to understand better the core concepts behind the transformer architecture. Most of the code was based on andrej karpathy's build a gpt video. 
 
+Update: Vision Transformer architecture was also replicated and added to `models.py` altough no training code is provided (as of now.) # TODO: Add train code for tiny ViT on MNIST for proof of concept.
+
 With more training time and deeper architecture better outputs should be achieavable. 
 
 ## File Structure
@@ -18,6 +20,7 @@ With more training time and deeper architecture better outputs should be achieav
   - Stacked Transformer blocks for sequence modeling.
   - A language modeling head for predicting the next token.
   - A `generate` method for autoregressive text generation.
+  - Added a Vision Transformer model as well following the original ViT paper! 
 
 - **`tokenizers.py`**: Implements tokenization utilities:
   - `BaseTokenizer`: Abstract base class for tokenizers.
